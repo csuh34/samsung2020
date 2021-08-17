@@ -18,7 +18,7 @@ Files, features explanation
 
       -        predict_gain(contents, filename, filename1, filename2)
 
-          loads the _model_, *input* files and returns the predicted csv file to *df* 
+          loads the *model*, *input* files and returns the predicted csv file to *df* 
 
       -        input_parse_contents(contents)
 
