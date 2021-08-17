@@ -17,7 +17,9 @@
 
    3.  사용자가 적용한 필터에 해당되는 Table 자료를 csv file로 export 하는 버튼 제작
 
--       Dash library에 다양한 기능, 함수들이 있어서 이것저것 구경할 수 있어서 좋았다. 예를 들자면, 1년 전만 해도 사용자가 만든 data를 export하는 built-in 기능이 없었으나, 최신 버전 dash에서 built-in export button이 나와 사용자들이 더욱 쉽게 접근할 수 있게 되었다.
+-       Dash library에 다양한 기능, 함수들이 있어서 이것저것 구경할 수 있어서 좋았다. 
+        예를 들자면, 1년 전만 해도 사용자가 만든 data를 export하는 built-in 기능이 없었으나, 
+        최신 버전 dash에서 built-in export button이 나와 사용자들이 더욱 쉽게 접근할 수 있게 되었다.
 
 
 -       Table chart에 있는 데이터를 누를 시 그에 해당되는 SHAP value chart들을 구현
