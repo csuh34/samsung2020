@@ -83,18 +83,11 @@ def summary(shap_values, selected_idx, x_test, target):
     newcmp = plt.get_cmap('rainbow')
 
     # 1. summary plot
-    plt.figure()
-    shap.summary_plot(shap_values[selected_idx], x_test.iloc[selected_idx], show=False)
-
-    for fc in plt.gcf().get_children():
-        for fcc in fc.get_children():
-            if hasattr(fcc, "set_cmap"):
-                fcc.set_cmap(newcmp)
-
-    if save:
-        plt.savefig('png/%s_summary_plot.png' % target, format='png', bbox_inches='tight', facecolor='white')
-
-
+    ###
+    #
+    # deleted
+    #
+    ###
 
 def decision(explainer, shap_values, selected_idx, test_df, x_test, target):
     save = 1  # or 1
@@ -102,14 +95,11 @@ def decision(explainer, shap_values, selected_idx, test_df, x_test, target):
     newcmp = plt.get_cmap('rainbow')
 
     # 2. decision plot
-    plt.figure()
-    shap.decision_plot(explainer.expected_value, shap_values[selected_idx],
-                       legend_labels=test_df.loc[selected_idx, '_uebin_left'].tolist(),
-                       feature_names=x_test.columns.tolist(), show=False, plot_color=newcmp)
-    if save:
-        plt.savefig('png/%s_decision_plot.png' % target, format='png', bbox_inches='tight', facecolor='white')
-
-
+    ###
+    #
+    # deleted
+    #
+    ###
 
 def dependence(x_test, selected_idx, shap_values, target):
     save = 1  # or 1
