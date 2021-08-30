@@ -1,6 +1,6 @@
 # 8/6/20 Hayung Suh
 #
-# Includes some code by Sujin Jung -> deleted for confidentiality
+# Some code deleted due to confidentiality
 
 # empty_png, plot_shap, predict_gain
 
