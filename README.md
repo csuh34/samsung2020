@@ -6,7 +6,7 @@
 
 ### File location:
 
-        /home/sujin/PycharmProjects/hayung_dash
+        /home/@@@@@/PycharmProjects/hayung_dash
 
 ### Necessary directories and files:
 
